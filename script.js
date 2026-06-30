@@ -5,7 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (button) {
         button.addEventListener("click", () => {
 
-            alert("Bienvenue chez ChocoMoe 🍫");
+            document.querySelector("#creations").scrollIntoView({
+    behavior:"smooth"
+});
 
         });
     }
