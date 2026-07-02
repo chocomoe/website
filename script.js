@@ -1,15 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.querySelector(".btn").addEventListener("click",function(){
 
-    const button = document.querySelector(".btn");
-
-    if (button) {
-        button.addEventListener("click", () => {
-
-            document.querySelector("#creations").scrollIntoView({
-    behavior:"smooth"
+document.querySelector("#creations").scrollIntoView({
+behavior:"smooth"
 });
-
-        });
-    }
 
 });
